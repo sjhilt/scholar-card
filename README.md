@@ -61,7 +61,7 @@ Or host it under /var/www/html/ for Apache/Nginx.
 
 On your main website, embed the following:
 ```
-<iframe src="/scholar-box.html" width="100%" height="340" style="border: none;"></iframe>
+<iframe src="/scholar-box.html" width="100%" height="360" style="border: none;"></iframe>
 ```
 Automate Updates (Optional)
 

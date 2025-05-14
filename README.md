@@ -26,12 +26,12 @@ How It Works
 
 ## Setup
 
-1. Clone the repository
+### 1. Clone the repository
 ```
 git clone https://github.com/sjhilt/scholar-card.git
 cd scholar-card
 ```
-2. Install Python dependencies
+### 2. Install Python dependencies
 
 Use a virtual environment:
 ```
@@ -39,7 +39,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-3. Set your Google Scholar ID
+### 3. Set your Google Scholar ID
 
 Edit scholar_stats.py and replace:
 ```
@@ -50,11 +50,11 @@ Also edit in scholar-box.html
 ```
 <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank">
 ```
-4. Generate the JSON
+### 4. Generate the JSON
 ```
 python scholar_stats.py
 ```
-5. Serve the site
+### 5. Serve the site
 
 You can test locally with:
 ```
@@ -62,7 +62,7 @@ python3 -m http.server
 ```
 Or host it under /var/www/html/ for Apache/Nginx.
 
-6. Embed the iframe
+### 6. Embed the iframe
 
 On your main website, embed the following:
 ```

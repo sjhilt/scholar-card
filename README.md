@@ -41,9 +41,14 @@ pip install -r requirements.txt
 ```
 3. Set your Google Scholar ID
 
-Edit generate_scholar_stats.py and replace:
+Edit scholar_stats.py and replace:
 ```
 USER_ID = 'YOUR_GOOGLE_SCHOLAR_ID'
+```
+Also edit in scholar-box.html 
+
+```
+<a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank">
 ```
 4. Generate the JSON
 ```

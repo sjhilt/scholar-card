@@ -3,6 +3,8 @@
 
 This project allows you to display your Google Scholar citation metrics in a clean, responsive card via an iframe. It's ideal for embedding on academic or personal websites.
 
+[![Live Demo](https://img.shields.io/badge/demo-online-blue)](https://stephenhilt.com/demo.html)
+
 ## Features
 
 - Displays total and recent citations

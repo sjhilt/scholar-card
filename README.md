@@ -13,16 +13,16 @@ This project allows you to display your Google Scholar citation metrics in a cle
 - Easily embeddable via iframe
 - No external dependencies beyond standard Python and browser JS
 
-## Demo
+## Info
 
 ```html
 <iframe src="/scholar-box.html" width="100%" height="340" style="border: none;"></iframe>
 ```
-How It Works
-	1.	A Python script scrapes your Google Scholar profile.
-	2.	It generates a scholar-stats.json file with the key metrics.
-	3.	A styled scholar-box.html reads this JSON and displays it.
-	4.	This page can be embedded via iframe on any website.
+**How It Works**:
+1. A Python script scrapes your Google Scholar profile.
+2. It generates a scholar-stats.json file with the key metrics.
+3. A styled scholar-box.html reads this JSON and displays it.
+4. This page can be embedded via iframe on any website.
 
 ## Setup
 
